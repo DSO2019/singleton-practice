@@ -20,7 +20,7 @@ public final class CellConnection {
      * @return unique instance of CellConnection
      */
     public static CellConnection getCellConnection() {
-        if (cellConnection != null) {
+        if (cellConnection == null) {
            cellConnection = new CellConnection();
         }
         return cellConnection;
