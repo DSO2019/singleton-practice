@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Cellphone",
+            "request": "launch",
+            "mainClass": "mx.iteso.app.Cellphone",
+            "projectName": "java"
+        }
+    ]
+}
