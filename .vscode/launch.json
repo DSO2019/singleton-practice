@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Cellphone",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Cellphone",
+            "projectName": "my-app"
+        }
+    ]
+}
