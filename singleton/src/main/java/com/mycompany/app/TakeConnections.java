@@ -4,7 +4,12 @@ package com.mycompany.app;
  * class TakeConnections
  */
 public class TakeConnections {
-    public static void main (String[] args){
+
+    /**
+     * main funct.
+     * @param args args.
+     */
+    public static void main(String[] args) {
         NetworkConnect network;
         Connection connection;
 

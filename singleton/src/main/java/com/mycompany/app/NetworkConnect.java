@@ -3,26 +3,37 @@ package com.mycompany.app;
 import java.util.ArrayList;
 
 /**
- * Created with IntelliJ IDEA.
- * User: rvillalobos
- * Date: 10/6/13
- * Time: 7:36 PM
- * To change this template use File | Settings | File Templates.
+ * abstract class networkConnect.
  */
-
 public abstract class NetworkConnect {
+    /**
+     * Connections.
+     */
     public ArrayList connections;
+    /**
+     * networkName.
+     */
     public String networkName;
 
 
+    /**
+     * clear connections.
+     */
     public void clearConnections(){
         connections.clear();
     }
 
+    /**
+     * add Connection.
+     * @param connection connection.
+     */
     public void addConnection (Connection connection) {
         connections.add(connection);
     }
 
+    /**
+     * Print connection check.
+     */
     public void printCheck(){
         float total = 0;
         Connection cn;
